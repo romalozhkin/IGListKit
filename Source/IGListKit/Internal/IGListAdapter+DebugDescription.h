@@ -1,14 +1,4 @@
-/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+#import "TargetConditionals.h" 
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
 
-#import <IGListKit/IGListAdapter.h>
-
-@interface IGListAdapter (DebugDescription)
-
-- (NSArray<NSString *> *)debugDescriptionLines;
-
-@end
+#endif

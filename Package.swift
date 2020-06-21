@@ -15,6 +15,7 @@ let package = Package(
             path: "Source",
             cSettings: [
                 .headerSearchPath("./"),
+                .headerSearchPath("./Source/IGListKit/Internal"),
             ]
         )
     ]
